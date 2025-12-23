@@ -1,7 +1,7 @@
-import IfRender from './components/04-if-rendering';
+import EventHandler from "./components/06-event-handler";
 
 export default function MyApp() {
   return (
-    <IfRender />
-  )
+    <EventHandler />
+  );
 }
