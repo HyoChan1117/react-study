@@ -1,7 +1,5 @@
-import EventHandler from "./components/06-event-handler";
+import Board from "./components/tictactoe/Board";
 
 export default function MyApp() {
-  return (
-    <EventHandler />
-  );
+  return <Board />;
 }
