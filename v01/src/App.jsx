@@ -1,5 +1,7 @@
-import Board from "./components/tictactoe/Board";
+import ToDoList from "./components/to-do-list";
 
 export default function MyApp() {
-  return <Board />;
+  return (
+    <ToDoList />
+  )
 }
